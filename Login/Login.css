@@ -1,4 +1,4 @@
-.SignUpForm {
+.LoginForm {
     margin: auto;
     width: 37.43%;
     text-align: center;
@@ -98,7 +98,11 @@ margin-bottom: 10px;
     padding: 0px;
     border: none;
 }
-.SUF_TextInputs input::placeholder  {
+.SUF_TextInputs input[type=email] {
+    padding-left: 15px;
+}
+
+.SUF_TextInputs input[type=password] {
     padding-left: 15px;
 }
 .EmailDiv p {
