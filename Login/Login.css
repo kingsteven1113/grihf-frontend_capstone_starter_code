@@ -101,18 +101,6 @@ margin-bottom: 10px;
 .SUF_TextInputs input::placeholder  {
     padding-left: 15px;
 }
-
-
-.RoleDiv p {
-    text-align: left;
-    
-}
-.NameDiv p {
-    text-align: left;
-}
-.PhoneNumberDiv p {
-    text-align: left;
-}
 .EmailDiv p {
     text-align: left;
 }
@@ -120,10 +108,10 @@ margin-bottom: 10px;
     text-align: left;
 }
 .PasswordDiv p small {
-color: #616161;
+color: #2358E1;
 font-family: 'Sarala', sans-serif;
 font-size: 14px;
-font-style: normal;
+text-decoration: underline;
 font-weight: 400;
 line-height: normal;
 }
