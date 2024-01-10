@@ -1,7 +1,6 @@
 .SignUpForm {
     margin: auto;
     width: 37.43%;
-    text-align: center;
     background: #D8E5FF;
     padding: 35px;
     margin-top: 35px;
@@ -12,16 +11,16 @@
     width: 100%;
     text-align: center;
 }
-.Heading svg {
+svg {
     display: block;
-}
-.XButton {
+    cursor: pointer;
     float: right;
 }
+
 .SU_header {
 font-family: 'Sarala', sans-serif;
 color: #000;
-font-size: 48px;
+font-size: 44px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
@@ -37,6 +36,7 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 margin-top: -20px;
+margin-bottom: -2px;
 }
 .SU_headersubtext span {
 color: #2358E1;
@@ -45,6 +45,7 @@ font-size: 18px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
+cursor: pointer;
 }
 .SUF_content span {
 color: #DA2828;
@@ -70,7 +71,7 @@ margin-bottom: 10px;
 .SUF_content select {
     background: #FFF;
     box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.13);
-    width: 100%;
+    width: 70%;
     height: 53px;
     font-family: 'Sarala', sans-serif;
     font-weight: 700;
@@ -83,6 +84,7 @@ margin-bottom: 10px;
     background-position: right 1rem center;
     background-size: 1.5em;
     text-align: left;
+    cursor: pointer;
     
     
 }
@@ -97,16 +99,26 @@ margin-bottom: 10px;
     font-size: 18px;
     padding: 0px;
     border: none;
+    cursor: pointer;
 }
-.SUF_TextInputs input::placeholder  {
+.SUF_TextInputs input[type=email]  {
     padding-left: 15px;
 }
-
+.SUF_TextInputs input[type=tel]  {
+    padding-left: 15px;
+}
+.SUF_TextInputs input[type=password]  {
+    padding-left: 15px;
+}
+.SUF_TextInputs input[type=text]  {
+    padding-left: 15px;
+}
 
 .RoleDiv p {
     text-align: left;
     
 }
+
 .NameDiv p {
     text-align: left;
 }
@@ -129,9 +141,10 @@ line-height: normal;
 }
 .SUF_Buttons {
     margin-top: 25px;
+    text-align: center;
 }
 
-.SUF_Buttons input { 
+.SUF_Buttons button { 
     width: 50%;
     border-radius: 10px;
     border: none;
@@ -142,6 +155,7 @@ line-height: normal;
     margin-bottom: 10px;
     font-size: 18px;
     padding-top: 5px;
+    cursor: pointer;
     
     
 }
@@ -150,4 +164,20 @@ line-height: normal;
 }
 .SUF_Buttons .ResetButton {
     background-color: #DA2828;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
 }

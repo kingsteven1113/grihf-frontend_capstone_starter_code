@@ -12,10 +12,9 @@
     width: 100%;
     text-align: center;
 }
-.Heading svg {
+svg {
     display: block;
-}
-.XButton {
+    cursor: pointer;
     float: right;
 }
 .SU_header {
@@ -45,6 +44,7 @@ font-size: 18px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
+cursor: pointer;
 }
 .SUF_content span {
 color: #DA2828;
@@ -83,6 +83,7 @@ margin-bottom: 10px;
     background-position: right 1rem center;
     background-size: 1.5em;
     text-align: left;
+    cursor: pointer;
     
     
 }
@@ -97,6 +98,7 @@ margin-bottom: 10px;
     font-size: 18px;
     padding: 0px;
     border: none;
+    cursor: pointer;
 }
 .SUF_TextInputs input[type=email] {
     padding-left: 15px;
@@ -118,6 +120,7 @@ font-size: 14px;
 text-decoration: underline;
 font-weight: 400;
 line-height: normal;
+cursor: pointer;
 }
 .SUF_Buttons {
     margin-top: 25px;
@@ -134,7 +137,7 @@ line-height: normal;
     margin-bottom: 10px;
     font-size: 18px;
     padding-top: 5px;
-    
+    cursor: pointer;
     
 }
 .SUF_Buttons .SignUpButton {
@@ -142,4 +145,19 @@ line-height: normal;
 }
 .SUF_Buttons .ResetButton {
     background-color: #DA2828;
+}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
 }
